@@ -12,7 +12,7 @@
 5. Instalar Django `pip install django`
 
 ### Crear el projecto
-1. django-admin `startproject nombre_del_proyecto .`
+1. `django-admin startproject nombre_del_proyecto .`
 2. Ejecutarlo en VSCode `code .`
 
 ### Servidor Local
