@@ -4,6 +4,7 @@ We must have the following programs installed
 1. Python3 `sudo apt install python3`
 2. Pip `sudo apt install python3-pip`
 3. [Visual Studio Code](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64)
+
 To install VS Code `.deb` we must go to the folder where VS Code was downloaded and execute 
 ```bash
 sudo dpkg -i package-name.deb
