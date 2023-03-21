@@ -14,12 +14,12 @@ Ahora crearemos la carpeta donde almacenaremos el entorno virtual y posterior a 
 5. Activar el entorno virtual `source venv/bin/activate`
 6. Instalar Django `pip install django`
 
-### Crear el projecto
+### 3- Crear el projecto
 Ahora crearemos el proyecto y lo ejecutaremos en nuestro editor de código que será VS Code
 1. `django-admin startproject nombre_del_proyecto .`
 2. Ejecutarlo en VSCode `code .`
 
-### Servidor Local
+### 4- Servidor Local
 ```bash
 python3 manage.py runserver
 ```
