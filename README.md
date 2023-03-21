@@ -11,12 +11,15 @@ sudo dpkg -i package-name.deb
 
 ### 2- Virtual environment and Django
 Now we will create the folder where we will store the virtual environment and after that we will install it there
-1. We create the project folder `mkdir djangoproject`
-2. We enter the project folder `cd djangoproject`
-3. We install VirtualEnv `pip install virtualenv`
-4. We create the virtual environment `virtualenv venv`
-5. We activate the virtual environment `source venv/bin/activate`
-6. We install Django `pip install django`
+1. We create the project folder and position ourselves there 
+```bash
+mkdir djangoproject
+cd djangoproject
+```
+2. We install VirtualEnv `pip install virtualenv`
+3. We create the virtual environment `virtualenv venv`
+4. We activate the virtual environment `source venv/bin/activate`
+5. We install Django `pip install django`
 
 ### 3- Creating the project
 Now we will create the project and run it in our code editor which will be VS Code
