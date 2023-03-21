@@ -22,7 +22,8 @@ Now we will create the project and run it in our code editor which will be VS Co
 ### 4- Localhost
 ```bash
 python3 manage.py runserver
-```If everything has gone well, we must enter the localhost with the default port it uses [127.0.0.1:8000](http://127.0.0.1:8000) or if we want to occupy a different port, we will execute 
+```
+If everything has gone well, we must enter the localhost with the default port it uses [127.0.0.1:8000](http://127.0.0.1:8000) or if we want to occupy a different port, we will execute
 ```bash 
 python3 manage.py runserver 3000
 ```
