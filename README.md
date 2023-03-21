@@ -20,7 +20,7 @@ Ahora crearemos el proyecto y lo ejecutaremos en nuestro editor de código que s
 2. Ejecutarlo en VSCode `code .`
 
 ### Servidor Local
-1. ```bash
+```bash
 python3 manage.py runserver
 ```
 Si todo ha salido bien, debemos ingresar al localhost con el puerto por defecto que utiliza [127.0.0.1:8000](http://127.0.0.1:8000) o si quisieramos ocupar otro puerto distinto, ejecutaremos 
