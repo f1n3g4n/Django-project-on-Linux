@@ -11,7 +11,7 @@ sudo dpkg -i package-name.deb
 
 ### 2- Virtual environment and Django
 Now we will create the folder where we will store the virtual environment and after that we will install it there
-1. We create the project folder and position ourselves there 
+1. We create the project folder and move there
 ```bash
 mkdir djangoproject
 cd djangoproject
@@ -35,3 +35,7 @@ If everything has gone well, we must enter the localhost with the default port i
 python3 manage.py runserver 3000
 ```
 [127.0.0.1:3000](http://127.0.0.1:3000)
+
+### 5- Links
+- Django [djangoproject.com/](https://www.djangoproject.com/)
+- Python [python.org/](https://www.python.org/)
