@@ -1,7 +1,8 @@
 ## Django Project
 ### 1- Requeridos
-Python
-VSCode
+1. Python `sudo apt install python3`
+2. pip `sudo apt install python3-pip`
+3. [VS Code](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64)
 
 ### 2- Entorno Virtual y Django
 1. Crear carpeta del proyecto `mkdir dijangoproject`
