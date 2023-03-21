@@ -3,7 +3,11 @@
 We must have the following programs installed
 1. Python3 `sudo apt install python3`
 2. Pip `sudo apt install python3-pip`
-3. [VS Code](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64) to install VS Code `.deb` we must go to the folder where VS Code was downloaded and execute `sudo dpkg -i package-name.deb`
+3. [VS Code](https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64)
+To install VS Code `.deb` we must go to the folder where VS Code was downloaded and execute 
+```bash
+sudo dpkg -i package-name.deb
+```
 
 ### 2- Virtual environment and Django
 Now we will create the folder where we will store the virtual environment and after that we will install it there
