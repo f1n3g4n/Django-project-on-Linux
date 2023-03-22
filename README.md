@@ -31,7 +31,7 @@ Now we will create the project and run it in our code editor which will be VS Co
 Now we will create the app
 
 ```bash
-python3 manage.py startapp myapp
+python3 manage.py startapp app_name
 ```
 
 ### 5- Localhost
