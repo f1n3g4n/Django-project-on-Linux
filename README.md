@@ -27,7 +27,11 @@ Now we will create the project and run it in our code editor which will be VS Co
 1. `django-admin startproject nombre_del_proyecto .`
 2. We run it with VS Code `code .`
 
-### 4- Localhost
+### 4- Creating app
+Now we will create the app
+1. `python3 manage.py startapp myapp`
+
+### 5- Localhost
 ```bash
 python3 manage.py runserver
 ```
@@ -37,7 +41,7 @@ python3 manage.py runserver 3000
 ```
 [127.0.0.1:3000](http://127.0.0.1:3000)
 
-### 5- Links
+### 6- Links
 - Django [djangoproject.com/](https://www.djangoproject.com/)
 - Python [python.org/](https://www.python.org/)
 - Visual Studio Code [code.visualstudio.com/](https://code.visualstudio.com/)
