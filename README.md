@@ -27,7 +27,7 @@ Now we will create the project and run it in our code editor which will be VS Co
 1. `django-admin startproject nombre_del_proyecto .`
 2. We run it with VS Code `code .`
 
-### 4- Creating app
+### 4- Creating the app
 Now we will create the app
 1. `python3 manage.py startapp myapp`
 
