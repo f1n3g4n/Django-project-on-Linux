@@ -29,7 +29,10 @@ Now we will create the project and run it in our code editor which will be VS Co
 
 ### 4- Creating the app
 Now we will create the app
-`python3 manage.py startapp myapp`
+
+```bash
+python3 manage.py startapp myapp
+```
 
 ### 5- Localhost
 ```bash
