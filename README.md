@@ -48,7 +48,7 @@ If you want to raise the server in your local network, you must first get the ip
 ```bash
 ifconfig
 ```
-And then run the server on local ip plus the port (if you want) check this example
+And then run the server on local ip plus the port (the port is if you want) check this example
 ```bash
 python3 manage.py runserver 192.168.xxx.xxx 5000
 ```
