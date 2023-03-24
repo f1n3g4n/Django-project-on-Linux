@@ -28,7 +28,7 @@ Now we will create the project and run it in our code editor which will be VS Co
 2. We run it with VS Code `code .`
 
 ### 4- Creating the app
-Now we will create the app
+Now we must create the application from the VS Code terminal
 
 ```bash
 python3 manage.py startapp app_name
@@ -43,6 +43,8 @@ If everything has gone well, we must enter the localhost with the default port i
 python3 manage.py runserver 3000
 ```
 [127.0.0.1:3000](http://127.0.0.1:3000)
+### Notice
+If we press `Ctrl + C` we can stop the local server
 
 If you want to raise the server in your local network, you must first get the ip assigned to Eth0 or Wlan0
 ```bash
