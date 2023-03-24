@@ -52,7 +52,7 @@ And then run the server on local ip plus the port (the port is if you want) chec
 ```bash
 python3 manage.py runserver 192.168.xxx.xxx 5000
 ```
-#### Important information
+#### Important information about local ip address
 You must edit the `settings.py` file in your project, in the `ALLOWED_HOSTS` section, the default setting is like this
 ```bash
 ALLOWED_HOSTS = []
