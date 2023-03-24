@@ -44,6 +44,16 @@ python3 manage.py runserver 3000
 ```
 [127.0.0.1:3000](http://127.0.0.1:3000)
 
+If you want to raise the server in your local network, you must first get the ip assigned to Eth0 or Wlan0
+```bash
+ifconfig
+```
+And then run the server on local ip plus the port (if you want) check this example
+```bash
+python3 manage.py runserver 192.168.xxx.xxx 5000
+```
+[192.168.xxx.xxx](http://192.168.xxx.xxx)
+
 ### 6- Links
 - Django [djangoproject.com/](https://www.djangoproject.com/)
 - Python [python.org/](https://www.python.org/)
