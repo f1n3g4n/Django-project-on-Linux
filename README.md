@@ -52,8 +52,15 @@ And then run the server on local ip plus the port (the port is if you want) chec
 ```bash
 python3 manage.py runserver 192.168.xxx.xxx 5000
 ```
-[192.168.xxx.xxx](http://192.168.xxx.xxx)
-
+#### Important information
+You must edit the `settings.py` file in your project, in the `ALLOWED_HOSTS` section, the default setting is like this
+```bash
+ALLOWED_HOSTS = []
+```
+We must add the local ip like this
+```bash
+ALLOWED_HOSTS = [192.168.xxx.xxx]
+```
 ### 6- Links
 - Django [djangoproject.com/](https://www.djangoproject.com/)
 - Python [python.org/](https://www.python.org/)
