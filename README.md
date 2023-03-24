@@ -43,7 +43,7 @@ If everything has gone well, we must enter the localhost with the default port i
 python3 manage.py runserver 3000
 ```
 [127.0.0.1:3000](http://127.0.0.1:3000)
-### Notice
+#### Notice
 If we press `Ctrl + C` we can stop the local server
 
 If you want to raise the server in your local network, you must first get the ip assigned to Eth0 or Wlan0
